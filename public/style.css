@@ -47,6 +47,13 @@ label[for$='-x']{
   z-index: 1;
 }
 input: checked ~ #board label[for$='-o']{
+  z-index: 2;
+}
+input:checked ~ input:checked ~ #board label[for$='-x']
+{
   z-index: 3;
 }
-input:checked ~ input:checked ~ #board label[f]
+input:checked ~ input:checked ~ input: checked~ #board label[for$='-o]{
+  {z-index: 4;
+  }
+  input:checked ~ input:checked ~ input: checked
