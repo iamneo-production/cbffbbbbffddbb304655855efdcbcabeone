@@ -135,4 +135,20 @@ input[id*='-8-o']:checked ~ #board #tile-8 div::before,{
 .tile div::before {
   padding: 100%;
 }
-.tile label[for$='-o']:hover
+.tile label[for$='-o']:hover::before{
+  content: "o";
+}
+.tile label[for$='-x']:hover::before{
+  content: "x";
+}
+#tile-0{
+  grod-column: 1;
+  grid-row: 1;
+}
+#tile-0 label,
+#tile-0 div{
+  border-radius: 10% 0 0 0;
+}
+#tile-1{
+  grid-column: 2;
+grid-row: 1;}
