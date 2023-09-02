@@ -56,4 +56,15 @@ input:checked ~ input:checked ~ #board label[for$='-x']
 input:checked ~ input:checked ~ input: checked~ #board label[for$='-o]{
   {z-index: 4;
   }
-  input:checked ~ input:checked ~ input: checked
+  input:checked ~ input:checked ~ input: checked~ input: checked~ #board label[for$='-x']{
+    z-index: 5
+  }
+  input:checked ~ input:checked ~ input: checked~ input: checked~ input: checked~ #board label[for$='-o']{
+    z-index: 6
+  }
+  input:checked ~ input:checked ~ input: checked~ input: checked~ input: checked~ input: checked~ #board label[for$='-x']{
+    z-index: 7
+  }
+  input:checked ~ input:checked ~ input: checked~ input: checked~ input: checked~ input: checked~ input: vhecked #board label[for$='-x']{
+    z-index: 8
+  }
