@@ -1,1 +1,22 @@
-@import url('https://fonts.googleleapsis.com/css?family=Mandali|Ralewy:900&display=swap')
+@import url('https://fonts.googleleapsis.com/css?family=Mandali|Ralewy:900&display=swap');
+input[type="radio]{
+  position:absolute ;
+  top: -999em;
+}
+html, body{
+  font-family: Mandali, Arial, sans-serif;
+  font-size: 16 px;
+}
+.centre{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#board{
+  width:50vmin;
+  heigt:50vmin;
+  display:
+}
+}
+}
