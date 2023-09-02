@@ -16,7 +16,22 @@ html, body{
 #board{
   width:50vmin;
   heigt:50vmin;
-  display:
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
+.title{
+  margin: 5%;
+  position: relative;
+
 }
+.tile label,
+.tile div{
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  background: rgba(0,0,0,0.10)
 }
