@@ -65,6 +65,20 @@ input:checked ~ input:checked ~ input: checked~ #board label[for$='-o]{
   input:checked ~ input:checked ~ input: checked~ input: checked~ input: checked~ input: checked~ #board label[for$='-x']{
     z-index: 7
   }
-  input:checked ~ input:checked ~ input: checked~ input: checked~ input: checked~ input: checked~ input: vhecked #board label[for$='-x']{
+  input:checked ~ input:checked ~ input: checked~ input: checked~ input: checked~ input: checked~ input: checked~ #board label[for$='-o']{
     z-index: 8
   }
+  input:checked ~ input:checked ~ input: checked~ input: checked~ input: checked~ input: checked~ input: checked~ input: checked~ #board label[for$='-x']{
+    z-index: 9
+  }
+  input[id*='-0-']:checked ~ #board label[for*='-0-'],
+  input[id*='-1-']:checked ~ #board label[for*='-1-'],
+  input[id*='-2-']:checked ~ #board label[for*='-2-'],
+  input[id*='-3-']:checked ~ #board label[for*='-3-'],
+  input[id*='-4-']:checked ~ #board label[for*='-4-'],
+  input[id*='-5-']:checked ~ #board label[for*='-5-'],
+  input[id*='-6-']:checked ~ #board label[for*='-6-'],
+  input[id*='-7-']:checked ~ #board label[for*='-7-'],
+  input[id*='-8-']:checked ~ #board label[for*='-8-'],{
+display: none;}
+Input[]
