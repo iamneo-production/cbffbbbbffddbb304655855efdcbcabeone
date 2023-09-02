@@ -33,5 +33,12 @@ html, body{
   position: absolute;
   top:0;
   left: 0;
-  background: rgba(0,0,0,0.10)
+  background: rgba(0,0,0,0.10);
+  font-family: Raleway, Courier, 'Courier New', Sans, sans-serif;
+  font-weight: bolder;
+}
+.tile div{
+  display: none;
+  overflow: hidden;
+  text-shadow: 0 
 }
