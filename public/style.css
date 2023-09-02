@@ -121,3 +121,18 @@ input[id*='-8-o']:checked ~ #board #tile-8 div::before,{
   cursor: pointer;
   background: rgba(0,0,0,0.25);
 }
+.tile label::before,
+.tile div::before{
+  color: #000;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7.5vmin;
+  font-weight:bold;
+}
+.tile div::before {
+  padding: 100%;
+}
+.tile label[for$='-o']:hover
