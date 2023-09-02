@@ -81,4 +81,14 @@ input:checked ~ input:checked ~ input: checked~ #board label[for$='-o]{
   input[id*='-7-']:checked ~ #board label[for*='-7-'],
   input[id*='-8-']:checked ~ #board label[for*='-8-'],{
 display: none;}
-Input[]
+input[id*='-0-']:checked ~ #board #tile-0 div,
+input[id*='-1-']:checked ~ #board #tile-1 div,
+input[id*='-2-']:checked ~ #board #tile-2 div,
+input[id*='-3-']:checked ~ #board #tile-3 div,
+input[id*='-4-']:checked ~ #board #tile-4 div,
+input[id*='-5-']:checked ~ #board #tile-5 div,
+input[id*='-6-']:checked ~ #board #tile-6 div,
+input[id*='-7-']:checked ~ #board #tile-7 div,
+input[id*='-8-']:checked ~ #board #tile-8 div,{
+  display: block;}
+input[id*='-0-x']
