@@ -151,4 +151,10 @@ input[id*='-8-o']:checked ~ #board #tile-8 div::before,{
 }
 #tile-1{
   grid-column: 2;
-grid-row: 1;}
+grid-row: 1;
+}
+#tile-1{
+  grid-column: 3;
+grid-row: 1;
+}
+
