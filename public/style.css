@@ -91,4 +91,18 @@ input[id*='-6-']:checked ~ #board #tile-6 div,
 input[id*='-7-']:checked ~ #board #tile-7 div,
 input[id*='-8-']:checked ~ #board #tile-8 div,{
   display: block;}
-input[id*='-0-x']
+input[id*='-0-x']:checked ~ #board #tile-0 div::before,
+input[id*='-1-x']:checked ~ #board #tile-1 div::before,
+input[id*='-2-x']:checked ~ #board #tile-2 div::before,
+input[id*='-3-x']:checked ~ #board #tile-3 div::before,
+input[id*='-4-x']:checked ~ #board #tile-4 div::before,
+input[id*='-5-x']:checked ~ #board #tile-5 div::before,
+input[id*='-6-x']:checked ~ #board #tile-6 div::before,
+input[id*='-7-x']:checked ~ #board #tile-7 div::before,
+input[id*='-8-x']:checked ~ #board #tile-8 div::before,{
+  content:"x";
+  background: #004974;
+  color: #89dcf6;
+
+}
+input[id*='-0-o']:checked ~ #board #tile-0 div::before,
